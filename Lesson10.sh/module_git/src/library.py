@@ -11,7 +11,8 @@ while True:
     if choise == 0:
         break
     elif choise == 1:
-        print(f"Книжку {book} видано читачеві {name}")
+        day = int(input("На скільки днів?:"))
+        print(f"Книжку {book} видано читачеві {name} на {day} днів")
     elif choise == 2:
         print(f"Читач {name} повернув книжку {book}")
 print("Гарного вам дня")
