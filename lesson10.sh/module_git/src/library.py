@@ -8,7 +8,7 @@ while True:
     choise = int(input("Виберіть дію :"))
     name = input("Введіть ім'я:")
     book = input("Введіть назву книжки:")
-    if name == "" or book =="":
+    if name == "" or book == "":
         print("Введіть корректні дані!")
         continue
     if choise == 3:

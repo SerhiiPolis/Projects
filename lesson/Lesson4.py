@@ -28,7 +28,7 @@
 # else:
 #     print("Помилка! Введіть СМ чи КМ")
 
-#Завдання 4
+# Завдання 4
 
 #
 # answer = input("Відповідь на Велике Питання Життя, Всесвіту і Всього Іншого:")
@@ -82,7 +82,3 @@ if number % 2 == 0:
     print(number, "Even number")
 else:
     print(number, "Odd number")
-
-
-
-
