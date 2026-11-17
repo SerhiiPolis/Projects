@@ -83,7 +83,7 @@
 #         print(f"Учасник №{i}: {name}")
 #         i += 1
 
-#Завдання 5
+# Завдання 5
 
 # import random
 # secret_num = random.randint(0, 100)
@@ -99,9 +99,3 @@
 #         times += 1
 #     if num == secret_num:
 #         print(f"Ви вгадали за {times} спроб")
-
-
-
-
-
-
