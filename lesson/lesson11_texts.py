@@ -79,14 +79,14 @@
 
 
 # while True:
-#     pas = input("Введіть пароль:")
+#     password = input("Введіть пароль:")
 #
 #     if len(pas) < 8:
 #         print("Пароль повинен буди довшим за 8 символів")
 #         continue
 #
 #     num = 0
-#     let = 0
+#     letter = 0
 #
 #     for ch in pas:
 #         if ch.isdigit():
