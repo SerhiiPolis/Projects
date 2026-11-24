@@ -30,9 +30,12 @@
 
 # Завдання 3
 
+count = 0
 
-# text = input("Введіть текст:")
-#
-# count = text.count(".")
-#
-# print(f"У тексті {count} речень")
+text = input("Введіть текст:")
+
+for sign in text:
+    if sign in "!.?":
+        count += 1
+
+print(f"У тексті {count} речень")
