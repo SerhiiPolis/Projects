@@ -1,9 +1,11 @@
 # Завдання 1
 
-# text = input("Введіть текст:")
-# index = int(input("Введіть індекс:"))
-#
-# print(text[index])
+text = input("Введіть текст:")
+index = int(input("Введіть індекс:"))
+if index > len(text):
+    print("Такого індекса не існує")
+else:
+    print(text[index])
 
 # Завдання 2
 
